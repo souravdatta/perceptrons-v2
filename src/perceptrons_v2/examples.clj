@@ -31,4 +31,4 @@
 
 (predict sdr-net [1 0 1 1 1 0 1])                           ;; predicts 5
 (predict sdr-net [1 1 1 0 1 1 0])                           ;; predicts 2
-
+(predict sdr-net [1 1 0.5 1 1 1 1])                         ;; predicts both 0 and 8 as possible results
